@@ -1,0 +1,151 @@
+/*----------
+    Fonts
+ ----------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/*--------------------------------
+== common styles or utilities
+-------------------------------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+/*--------------------------
+      first-banner styles
+ ------------------------- */
+.flexible-container{
+    display: flex;
+    align-items: center;
+    background-color: #1d1d99;
+    padding: 50px;
+    
+    margin-bottom: 50px;
+}
+.half-width{
+    width: 50%;
+}
+.banner-title{
+       font-size: 64px;
+       color: #FFFFFF;
+      padding-left: 5pc;
+      width: 485px;
+      height: 230px;
+    
+       
+}
+.banner-img{
+    
+     Width: 556px;
+     Height: 438px;
+
+}
+
+.flexible-container:hover .banner-img{
+    transform: scale(1.18) rotate(5deg);
+    transition: transform 2s ease-in-out; 
+}
+
+.buttons{
+    margin-left: 80px ;
+}
+#button{
+    color: white;
+    background: #E02C6D;
+    width: 168px;
+    height: 44px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    padding: 10px, 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#button, span{
+    margin-left: 5px;
+}
+
+
+
+/* -----------------------------------
+       Players Detlails stile
+  -----------------------------------*/
+  .player-blog{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-row-gap: 30px;
+      grid-column-gap: 30px;
+      /* margin: 60px;
+      padding-left: 37px; */
+      
+  }
+  .player{
+    width: 330px;
+    height: 474px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .player-details{
+      padding-left: 10px;
+  }
+ 
+  .thumbnail, img{
+    width: 300px;
+    height: 256px;
+  }
+.player-name{
+    font-size: 28px;
+    color: #18191F;
+  }
+.about-player{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+
+
+
+/*---------------------------------
+            Footer style
+------------------------------------ */
+
+.about-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#footer-img{
+    width: 483.87px;
+    height: 110px;
+    margin-top: 60px;
+}
+.footer-icon{
+    Width: 170px;
+    Height: 32px;
+    margin: 0 631px;
+    font-size: 2em;
+}
+#copy-right{
+    font-size: 18px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+/*-------------------------------------------
+              MEDIA QUERSIES 
+---------------------------------------------*/
+
+/* ------------Mobile Devises---------------*/
+
+
