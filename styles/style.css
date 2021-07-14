@@ -9,7 +9,8 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-   
+    
+    overflow-x: hidden;
 }
 
 /*--------------------------
@@ -110,6 +111,29 @@ body{
     color: #6C6C6C;
 }
 
+hr{
+    
+    margin: 40px  20px 0;
+    background-color: red;
+    padding: 1px;
+}
+
+/*----------------
+ About Football
+ ------------------ */
+.about-football{
+    margin: 40px;
+    text-align: justify;
+    padding: 20px;
+}
+.ancient-football{
+    display: grid  ;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin: 10px;
+    
+}
+    
 
 
 
@@ -141,9 +165,7 @@ body{
     display: flex;
     justify-content: center;
 }
-body{
-    overflow-x: hidden;
-}
+
 /*-------------------------------------------
               MEDIA QUERSIES 
 ---------------------------------------------*/
